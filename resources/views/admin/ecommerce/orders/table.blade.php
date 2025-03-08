@@ -1,6 +1,6 @@
 <table class="table align-middle table-row-dashed fs-6 gy-5" id="kt_datatable_zero_configuration" class="table table-row-bordered gy-5">
     <thead>
-        <tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0">
+        <tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0 data_tables">
             <th>#</th>
             <th>User Name</th>
             <th>Order Amount</th>
@@ -11,7 +11,7 @@
             <th>Actions</th>
         </tr>
     </thead>
-    <tbody class="fw-semibold text-gray-600">
+    <tbody class="fw-semibold text-gray-600 table_data">
         @foreach ($orders as $order)
         <tr>
             <!-- Order ID -->

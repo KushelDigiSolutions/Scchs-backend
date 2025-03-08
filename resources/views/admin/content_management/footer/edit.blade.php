@@ -263,7 +263,7 @@
             font-weight: 500;
             font-size: 15px;
             line-height: 18px;
-            color: #181C32;
+            color: #00315C;
         }
 
         .render-column-list .rc-action {

@@ -23,7 +23,7 @@
                         <div class="menu-item px-3">
                             <div class="menu-content d-flex align-items-center px-3">
                                 <div class="symbol symbol-50px me-5">
-                                    <img alt="Logo" src="{{ asset('fab_icon.png') }}" />
+                                    <img alt="Logo" src="{{ asset('sub_logo.png') }}" />
                                 </div>
                                 <div class="d-flex flex-column">
                                     <div class="fw-bold d-flex align-items-center fs-5">
@@ -36,7 +36,7 @@
                         </div>
                         <div class="menu-item px-5 text-center">
                            
-                            <a class="btn btn-sm fw-bold text-white" style="background-color: rgb(236, 105, 31);" href="{{ route('admin.logout') }}"
+                            <a class="btn btn-sm fw-bold text-white" style="background-color: #AB0635;" href="{{ route('admin.logout') }}"
                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 {{ __('Sign Out') }}
                             </a>

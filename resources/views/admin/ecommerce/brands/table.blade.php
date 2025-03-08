@@ -1,6 +1,6 @@
 <table class="table align-middle table-row-dashed fs-6 gy-5">
     <thead>
-        <tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0">
+        <tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0 data_tables">
             <th>ID.</th>
             <th style="width:0">Image</th>
             <th>Name</th>

@@ -30,8 +30,8 @@
     data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
     <div class="app-sidebar-logo px-6" id="kt_app_sidebar_logo">
         <a href="{{ route('admin.dashboard') }}">
-            <img alt="Logo" src="{{ asset('./logo.png') }}" class="yogi app-sidebar-logo-default" />
-            <img alt="Logo" src="{{ asset('./small-logo.png') }}" class="h-20px app-sidebar-logo-minimize" />
+            <img alt="Logo" src="{{ asset('./logo.jpg') }}" class="yogi app-sidebar-logo-default" />
+            <img alt="Logo" src="{{ asset('./sub_logo.png') }}" class="h-20px app-sidebar-logo-minimize" />
         </a>
         <div id="kt_app_sidebar_toggle"
             class="app-sidebar-toggle btn btn-icon btn-shadow btn-sm btn-color-muted btn-active-color-primary body-bg h-30px w-30px position-absolute top-50 start-100 translate-middle rotate"
@@ -664,24 +664,7 @@
                     </div>
                 @endcanany
             
-                
-                @canany(['user-list', 'user-create', 'user-edit', 'user-status-change', 'user-delete'])
-                    <div class="menu-item pro-hover @if (in_array(Route::currentRouteName(), ['admin.users.index', 'admin.users.create', 'admin.users.edit'])) {{ 'is-active' }} @endif">
-                        <a class="menu-link" href="{{ route('admin.users.index') }}"> 
-                            <span class="menu-icon">
-                                <i class="ki-duotone ki-user fs-2">
-                                    <span class="path1"></span>
-                                    <span class="path2"></span>
-                                    <span class="path3"></span>
-                                    <span class="path4"></span>
-                                    <span class="path5"></span>
-                                    <span class="path6"></span>
-                                </i>
-                            </span>
-                            <span class="menu-title">Lead Management</span>
-                        </a>
-                    </div>
-                @endcanany
+             
 
 
                

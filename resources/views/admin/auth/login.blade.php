@@ -54,7 +54,7 @@
                                 @csrf
 
 								<!--begin::Heading-->
-                           <div class="logi">     <center>  <img style="width: 200px;margin: 0 0 20px 0;" src="/logo.png"> </center></div>
+                           <div class="logi">     <center>  <img style="width: 200px;margin: 0 0 20px 0;" src="/logo.jpg"> </center></div>
 
 								<div class="text-center mb-11">
 									<!--begin::Title-->

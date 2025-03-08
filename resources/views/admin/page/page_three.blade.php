@@ -38,7 +38,7 @@
                     </ul>
                 </div>
 
-                <button id="secta" class="btn btn-sm fw-bold btn-primary" data-bs-toggle="modal" style="background-color:rgb(236,105,31)"
+                <button id="secta" class="btn btn-sm fw-bold btn-primary create_btn" data-bs-toggle="modal" 
                                         data-bs-target="#kt_modal_new_target">+ Create New Page</button>
 
 
@@ -292,7 +292,7 @@
                                 <div class="card-body card-body4 card-si">
 
                                     <table id="kt_datatable_zero_configuration" class="table table-row-bordered gy-5">
-                                        <thead style="background-color: rgb(6, 81, 117); color: white; border-bottom: 2px solid #004761;">
+                                        <thead style="background-color:#00315C; color: white; border-bottom: 2px solid #004761;">
                                             {{-- <tr class="fw-semibold fs-6 text-muted"> --}}
                                              <tr class="text-start fw-bold fs-7 text-uppercase gs-0" style="letter-spacing: 0.05em;">
 

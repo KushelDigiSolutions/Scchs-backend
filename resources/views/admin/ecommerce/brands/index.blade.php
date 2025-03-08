@@ -21,7 +21,7 @@
                 </div>
                 <div class="d-flex align-items-center gap-2 gap-lg-3">
                     @can('brands-create')
-                        <a href="{{ route('admin.brands.create') }}" class="btn btn-sm fw-bold btn-primary">Create New Brand</a>
+                        <a href="{{ route('admin.brands.create') }}" class="btn btn-sm fw-bold btn-primary create_btn">Create New Brand</a>
                     @endcan
                 </div>
             </div>
